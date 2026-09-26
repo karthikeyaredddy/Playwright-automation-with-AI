@@ -1,0 +1,1 @@
+BASE_URL = "https://ayksadev-adminportal.onrender.com/login"
