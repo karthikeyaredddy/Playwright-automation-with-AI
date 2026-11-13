@@ -1,7 +1,8 @@
 class DashboardLocators:
     LOGO = "//img[@alt='Tunez']"
     MENU_BUTTON = "button[aria-label='open drawer']"
-    MENU_ICON = "button[aria-label='Collapse sidebar']"
+    LOCK_SIDEBAR_BUTTON = "button[aria-label='Lock sidebar']"
+    UNLOCK_SIDEBAR_BUTTON = "button[aria-label='Unlock sidebar']"
     SIDEBAR = "nav[aria-label='mailbox folders']"
     ADMIN_BUTTON = 'button[id="account-menu-button"]'
     MY_PROFILE = 'p:has-text("My Profile")'

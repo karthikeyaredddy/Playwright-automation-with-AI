@@ -1,8 +1,10 @@
+import pytest
 from pages.fieldexecutivedashboard_page import (
     FieldExecutiveDashboardPage
 )
 
 
+@pytest.mark.order(2)
 class TestFieldExecutiveDashboard:
 
     def test_dashboard_heading(self, logged_in_page):

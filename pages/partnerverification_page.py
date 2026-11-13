@@ -1,8 +1,6 @@
-import random
 import re
 from playwright.sync_api import expect
 from locators.partnerverification_locators import PartnerVerificationLocators
-
 
 class PartnerVerificationPage:
 

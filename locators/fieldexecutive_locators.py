@@ -45,3 +45,4 @@ class FieldExecutiveLocators:
     QUICK_ACTIONS_BUTTON = "button[aria-label='Open quick actions menu']"
     # Material UI backdrop (used to close the menu)
     QUICK_ACTIONS_BACKDROP = ".MuiBackdrop-root"
+

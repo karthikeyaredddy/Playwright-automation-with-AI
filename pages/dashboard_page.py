@@ -1,4 +1,5 @@
 from playwright.sync_api import expect
+import re
 
 from locators.dashboard_locators import DashboardLocators
 class DashboardPage:
@@ -18,27 +19,28 @@ class DashboardPage:
         if menu.is_visible():
             menu.click()
 
-    #LOCK SLIDE BAR
+    # Sidebar lock
 
-    def verify_sidebar_collapsed(self):
-        menu_icon = self.page.get_by_role(
-            "button",
-            name="Collapse sidebar"
-        )
-
-        expect(menu_icon).to_be_visible(timeout=10000)
-
-        menu_icon.click()
-
+    def verify_sidebar_lock_toggle(self):
         sidebar = self.page.locator(
             DashboardLocators.SIDEBAR
         )
+        expect(sidebar).to_be_visible(timeout=10000)
 
-        expect(sidebar).to_have_attribute(
-            "data-sidebar-collapsed",
-            "true",
-            timeout=10000
+        lock_button = self.page.locator(
+            DashboardLocators.LOCK_SIDEBAR_BUTTON
         )
+        expect(lock_button).to_be_visible(timeout=10000)
+        lock_button.click()
+
+        unlock_button = self.page.locator(
+            DashboardLocators.UNLOCK_SIDEBAR_BUTTON
+        )
+        expect(unlock_button).to_be_visible(timeout=10000)
+        unlock_button.click()
+
+        expect(lock_button).to_be_visible(timeout=10000)
+        expect(sidebar).to_be_visible(timeout=10000)
 
         return True
 
@@ -187,6 +189,50 @@ class DashboardPage:
         ).not_to_be_visible()
 
         return True
+
+    def logout(self):
+        """Log out, verify the public landing page, and open Login."""
+        self.page.locator(
+            DashboardLocators.ADMIN_BUTTON
+        ).click()
+
+        self.page.locator(
+            DashboardLocators.LOGOUT_BUTTON
+        ).click()
+
+        dialog = self.page.get_by_role("dialog")
+        expect(dialog).to_be_visible()
+        expect(
+            dialog.get_by_text("Confirm Logout", exact=True)
+        ).to_be_visible()
+
+        confirm_button = dialog.get_by_role(
+            "button", name="Logout", exact=True
+        )
+        expect(confirm_button).to_be_visible()
+        confirm_button.click()
+
+        expect(self.page).to_have_url(re.compile(r"https?://[^/]+/?$"))
+        expect(
+            self.page.get_by_role(
+                "heading",
+                name=re.compile(
+                    r"Try Running Your Field Team And Your Distributor Network",
+                    re.IGNORECASE,
+                ),
+            )
+        ).to_be_visible()
+
+        public_login_button = self.page.get_by_role(
+            "button", name="Login", exact=True
+        )
+        expect(public_login_button).to_be_visible()
+        public_login_button.click()
+
+        expect(self.page).to_have_url(re.compile(r".*/login/?$"))
+        expect(
+            self.page.get_by_role("heading", name="Welcome!", exact=True)
+        ).to_be_visible()
 
     #account settings
 
@@ -585,28 +631,6 @@ class DashboardPage:
             assert "partner-user-management" in self.page.url
 
             return True
-
-    def open_reimbursement(self):
-        # Already on Claims page
-        # Already inside any Reimbursement page
-        current_url = self.page.url
-        if (
-                "/dashboard/claims" in current_url
-                or "/dashboard/admin-claims" in current_url
-                or "/dashboard/manager-claims" in current_url
-                or "/dashboard/claim-history" in current_url
-                or "/dashboard/claim-stats" in current_url
-        ):
-            return True
-        # Click Reimbursement menu
-        reimbursement = self.page.get_by_role(
-            "button",
-            name="Reimbursement",
-            exact=True
-        ).first
-
-        reimbursement.scroll_into_view_if_needed()
-        reimbursement.click()
 
     def open_hr_module(self):
 

@@ -1,6 +1,8 @@
+import pytest
 from pages.dashboard_page import DashboardPage
 from pages.partnerverification_page import PartnerVerificationPage
 
+@pytest.mark.order(4)
 class TestPartnerVerification:
 
     def test_partner_verification_page(self, logged_in_page):

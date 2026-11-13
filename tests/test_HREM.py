@@ -1,8 +1,11 @@
+import pytest
 from pages.dashboard_page import DashboardPage
 from pages.HREM_page import HREMPage
 
 
+@pytest.mark.order(7)
 class TestHRModule:
+
 
     def test_hr_module_working(self, logged_in_page):
 

@@ -1,6 +1,7 @@
 from playwright.sync_api import expect
 
 from locators.fieldexecutive_locators import FieldExecutiveLocators
+import re
 
 class FieldExecutiveDashboardPage:
 
@@ -44,6 +45,43 @@ class FieldExecutiveDashboardPage:
         ).to_be_visible(timeout=10000)
 
         return True
+
+    def refresh_dashboard(self):
+        """Refresh once after login and wait for the dashboard to be ready."""
+        self.page.reload(wait_until="networkidle")
+        expect(self.page).to_have_url(
+            re.compile(r".*/dashboard/.*"),
+            timeout=30000,
+        )
+        expect(
+            self.page.get_by_label("mailbox folders")
+        ).to_be_visible(timeout=30000)
+
+    def open_my_leaves(self):
+        """Navigate to My Leaves from the Field Executive sidebar."""
+        my_leaves = self.page.get_by_role(
+            "button", name="My Leaves", exact=True
+        )
+
+        if not my_leaves.is_visible():
+            field_executive = self.page.get_by_role(
+                "button", name="Field Executive", exact=True
+            )
+            expect(field_executive).to_be_visible(timeout=15000)
+            field_executive.click()
+
+        expect(my_leaves).to_be_visible(timeout=15000)
+        my_leaves.click()
+
+        expect(self.page).to_have_url(
+            re.compile(r".*/dashboard/field-executive/leaves/?$"),
+            timeout=20000,
+        )
+        expect(
+            self.page.get_by_role(
+                "heading", name="Leave planning", exact=True
+            )
+        ).to_be_visible(timeout=30000)
 
     def verify_greeting_section(self):
         greeting = self.page.locator(
