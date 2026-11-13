@@ -1,0 +1,739 @@
+2026-10-29 12:32:12,892 | INFO | Pytest | PASSED | tests/test_claim_eligibility.py::TestClaimEligibility::test_claim_eligibility_card_working
+2026-10-29 12:32:26,093 | INFO | Pytest | PASSED | tests/test_claim_eligibility.py::TestClaimEligibility::test_role_designation_configuration
+2026-10-29 12:32:30,863 | INFO | Pytest | PASSED | tests/test_claim_eligibility.py::TestClaimEligibility::test_add_claim_rule_for_existing_role
+2026-10-29 12:32:54,269 | INFO | Pytest | PASSED | tests/test_dashboard.py::TestDashboard::test_logo_visible
+2026-10-29 12:32:55,093 | INFO | Pytest | PASSED | tests/test_dashboard.py::TestDashboard::test_sidebar_lock_toggle
+2026-10-29 12:32:56,912 | INFO | Pytest | PASSED | tests/test_dashboard.py::TestDashboard::test_admin_button_working
+2026-10-29 12:32:59,673 | INFO | Pytest | PASSED | tests/test_dashboard.py::TestDashboard::test_my_profile_working
+2026-10-29 12:33:03,859 | INFO | Pytest | PASSED | tests/test_dashboard.py::TestDashboard::test_logout_popup_working
+2026-10-29 12:33:13,532 | INFO | Pytest | PASSED | tests/test_dashboard.py::TestDashboard::test_account_settings_working
+2026-10-29 12:33:58,335 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_dashboard_heading
+2026-10-29 12:33:58,381 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_greeting_section
+2026-10-29 12:33:58,452 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_dashboard_cards
+2026-10-29 12:33:58,583 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_today_work_plan
+2026-10-29 12:33:58,624 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_revenue_section
+2026-10-29 12:33:58,711 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_performance_section
+2026-10-29 12:33:59,172 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_interaction_insights
+2026-10-29 12:34:02,004 | INFO | Pytest | PASSED | tests/test_fieldexecutivedashboard.py::TestFieldExecutiveDashboard::test_quick_actions
+2026-10-29 12:34:44,839 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_login[admin]
+2026-10-29 12:34:48,777 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_password
+2026-10-29 12:34:51,797 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_employee_id
+2026-10-29 12:34:54,657 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_company_id
+2026-10-29 12:34:57,070 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_credentials
+2026-10-29 12:34:59,543 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_password
+2026-10-29 12:35:01,980 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_employee_id
+2026-10-29 12:35:04,446 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_company_id
+2026-10-29 12:35:07,350 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_credentials
+2026-10-29 12:36:22,923 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-10-29 12:36:24,450 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-10-29 12:36:39,571 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-10-29 12:36:40,894 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-10-29 12:36:42,140 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-10-29 12:36:47,104 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-10-29 12:36:49,585 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-10-29 12:36:57,293 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-10-29 12:36:58,340 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-10-29 12:37:03,269 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-10-29 12:37:04,330 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-10-29 12:37:08,151 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-10-29 12:37:12,144 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-10-29 12:37:13,376 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-10-29 12:37:15,962 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-10-29 12:37:38,421 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-10-29 12:39:24,369 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_route_navigation
+2026-10-29 12:39:25,390 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_route_monthly_filter
+2026-10-29 12:39:27,608 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_create_route_opens_successfully
+2026-10-29 12:39:28,579 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_select_two_nearby_partners
+2026-10-29 12:39:29,076 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_confirm_two_selected_partners
+2026-10-29 12:39:37,517 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_save_urgent_route
+2026-10-29 12:39:40,158 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_edit_saved_urgent_route
+2026-10-29 12:39:45,800 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_update_route_name_to_urgent_visit
+2026-10-29 12:39:47,359 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_delete_urgent_visit_route
+2026-10-29 12:40:50,878 | INFO | Pytest | PASSED | tests/test_HREM.py::TestHRModule::test_hr_module_working
+2026-10-29 12:40:51,738 | INFO | Pytest | PASSED | tests/test_HREM.py::TestEmployeeManagement::test_employee_directory
+2026-10-29 12:40:52,988 | INFO | Pytest | PASSED | tests/test_HREM.py::TestEmployeeManagement::test_search
+2026-10-29 12:40:59,951 | INFO | Pytest | PASSED | tests/test_HREM.py::TestEmployeeManagement::test_filters
+2026-10-29 12:41:09,847 | INFO | Pytest | PASSED | tests/test_HREM.py::TestEmployeeManagement::test_bulk_upload
+2026-10-29 12:41:15,312 | INFO | Pytest | PASSED | tests/test_HREM.py::TestEmployeeManagement::test_employee_list_and_hierarchy_view
+2026-10-29 12:41:16,476 | INFO | Pytest | PASSED | tests/test_HREM.py::TestEmployeeManagement::test_employee_table_headers
+2026-10-29 12:41:22,012 | INFO | Pytest | PASSED | tests/test_HREM.py::TestEmployeeManagement::test_employee_actions
+2026-10-31 12:10:59,626 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-10-31 12:11:01,332 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-10-31 12:11:18,185 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-10-31 12:11:19,601 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-10-31 12:11:20,975 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-10-31 12:11:27,800 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-10-31 12:11:29,339 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-10-31 12:11:36,874 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-10-31 12:11:37,892 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-10-31 12:11:42,904 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-10-31 12:11:43,800 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-10-31 12:11:47,630 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-10-31 12:11:51,242 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-10-31 12:11:52,928 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-10-31 12:12:09,144 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-10-31 12:12:09,343 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-10-31 12:12:35,816 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-04 15:03:36,831 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-04 15:03:38,347 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-04 15:03:53,809 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-04 15:03:55,106 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-04 15:03:56,368 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-04 15:04:03,047 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-04 15:04:04,449 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-04 15:04:19,421 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-04 15:04:19,578 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_policy_target_audience.png
+2026-11-04 15:04:20,568 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-04 15:04:26,032 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-04 15:04:26,905 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-04 15:04:30,750 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-04 15:04:34,485 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-04 15:04:36,120 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-04 15:04:52,242 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-04 15:04:52,389 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-04 15:05:18,878 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-05 15:42:35,879 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-05 15:42:37,442 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-05 15:42:52,268 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-05 15:42:53,635 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-05 15:42:54,970 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-05 15:43:00,998 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-05 15:43:02,498 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-05 15:43:17,242 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-05 15:43:17,408 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_policy_target_audience.png
+2026-11-05 15:43:18,400 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-05 15:43:23,344 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-05 15:43:24,223 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-05 15:43:27,660 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-05 15:43:31,531 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-05 15:43:33,212 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-05 15:43:49,271 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 15:43:49,428 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-05 15:44:15,882 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-05 15:48:13,985 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-05 15:48:15,594 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-05 15:48:30,996 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-05 15:48:32,280 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-05 15:48:33,549 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-05 15:48:39,753 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-05 15:48:41,320 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-05 15:48:48,294 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-05 15:48:49,314 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-05 15:48:54,289 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-05 15:48:55,238 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-05 15:48:58,502 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-05 15:49:02,224 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-05 15:49:03,902 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-05 15:49:20,048 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 15:49:20,249 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-05 15:49:20,250 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-05 15:49:40,845 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-05 15:55:15,970 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 15:55:16,312 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-05 15:55:16,314 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-05 15:55:47,653 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 15:55:47,848 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-05 15:55:47,850 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-05 16:04:51,074 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 16:04:51,371 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-05 16:04:51,372 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-05 16:05:29,414 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-05 16:05:31,096 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-05 16:05:45,096 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-05 16:05:46,416 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-05 16:05:47,721 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-05 16:05:52,916 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-05 16:05:54,346 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-05 16:06:02,370 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-05 16:06:03,361 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-05 16:06:08,260 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-05 16:06:09,129 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-05 16:06:12,961 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-05 16:06:16,581 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-05 16:06:18,244 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-05 16:06:36,010 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 16:06:36,191 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-05 16:06:36,192 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-05 16:06:58,931 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-05 16:07:35,049 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 16:38:12,624 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-05 16:38:14,263 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-05 16:38:28,302 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-05 16:38:29,687 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-05 16:38:30,931 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-05 16:38:35,315 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-05 16:38:37,098 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-05 16:38:51,535 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-05 16:38:52,759 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-05 16:38:57,794 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-05 16:38:58,683 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-05 16:39:02,028 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-05 16:39:05,796 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-05 16:39:07,051 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-05 16:39:09,508 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 16:39:30,989 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-05 16:40:47,831 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-05 16:40:49,601 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-05 16:41:03,628 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-05 16:41:04,993 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-05 16:41:06,217 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-05 16:41:10,694 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-05 16:41:12,207 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-05 16:41:27,101 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-05 16:41:28,177 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-05 16:41:33,101 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-05 16:41:33,978 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-05 16:41:37,260 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-05 16:41:40,943 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-05 16:41:42,580 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-05 16:41:44,962 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-05 16:42:02,932 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-05 16:42:57,092 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_my_attendance
+2026-11-05 16:43:03,605 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_check_in
+2026-11-05 16:43:03,702 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_meets_and_visits_page
+2026-11-05 16:43:07,250 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_partner_search
+2026-11-05 16:43:44,402 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_begin_visit_or_meeting_for_random_partner
+2026-11-05 16:43:44,682 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_begin_visit_or_meeting_for_random_partner.png
+2026-11-05 16:51:13,022 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_my_attendance
+2026-11-05 16:51:22,824 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_check_in
+2026-11-05 16:51:23,287 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_meets_and_visits_page
+2026-11-05 16:51:33,146 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_partner_search
+2026-11-05 16:52:29,869 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_begin_visit_or_meeting_for_random_partner
+2026-11-05 16:52:30,146 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_begin_visit_or_meeting_for_random_partner.png
+2026-11-05 16:52:30,147 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-05 16:53:32,942 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_my_attendance
+2026-11-05 16:53:47,151 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_check_in
+2026-11-05 16:53:47,258 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_meets_and_visits_page
+2026-11-05 16:54:00,159 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_partner_search
+2026-11-05 16:54:16,230 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_begin_visit_or_meeting_for_random_partner
+2026-11-05 16:54:16,407 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_begin_visit_or_meeting_for_random_partner.png
+2026-11-05 16:54:16,408 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-05 17:31:52,285 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_my_attendance
+2026-11-05 17:31:58,982 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_check_in
+2026-11-05 17:31:59,086 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_meets_and_visits_page
+2026-11-05 17:32:03,025 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_partner_search
+2026-11-05 17:32:35,827 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_begin_visit_or_meeting_for_random_partner
+2026-11-05 17:32:36,110 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_begin_visit_or_meeting_for_random_partner.png
+2026-11-05 17:32:36,111 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 12:48:50,842 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 12:48:52,449 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 12:49:08,273 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 12:49:09,612 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 12:49:20,166 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 12:49:20,410 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_sort_dropdown.png
+2026-11-12 12:49:25,060 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 12:49:26,663 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 12:49:41,442 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 12:49:41,659 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_policy_target_audience.png
+2026-11-12 12:49:42,875 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 12:50:01,991 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 12:50:02,116 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_create_new_procedure.png
+2026-11-12 12:50:12,200 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 12:50:12,313 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_view_procedure_details_and_close.png
+2026-11-12 12:50:31,646 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 12:50:35,832 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 12:50:37,488 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 12:50:40,564 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 12:51:14,702 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 12:51:15,551 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestFieldExecutiveEmployeePolicies__test_assigned_policy_and_procedures_are_available.png
+2026-11-12 14:23:46,259 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 14:23:47,840 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 14:24:08,507 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:24:09,817 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 14:24:20,293 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 14:24:20,502 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_sort_dropdown.png
+2026-11-12 14:24:20,503 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:24:24,003 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 14:24:27,338 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 14:24:35,705 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 14:24:36,569 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 14:24:42,119 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 14:24:42,125 | ERROR | Pytest | Could not capture screenshot | Page.screenshot: Target page, context or browser has been closed
+2026-11-12 14:24:42,276 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 14:24:42,280 | ERROR | Pytest | Could not capture screenshot | Page.screenshot: Target page, context or browser has been closed
+2026-11-12 14:24:42,412 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 14:24:42,418 | ERROR | Pytest | Could not capture screenshot | Page.screenshot: Target page, context or browser has been closed
+2026-11-12 14:24:42,716 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 14:24:42,720 | ERROR | Pytest | Could not capture screenshot | Page.screenshot: Target page, context or browser has been closed
+2026-11-12 14:24:42,800 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 14:24:42,803 | ERROR | Pytest | Could not capture screenshot | Page.screenshot: Target page, context or browser has been closed
+2026-11-12 14:24:43,063 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 14:24:43,067 | ERROR | Pytest | Could not capture screenshot | Page.screenshot: Target page, context or browser has been closed
+2026-11-12 14:24:43,258 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 14:24:43,261 | ERROR | Pytest | Could not capture screenshot | Page.screenshot: Target page, context or browser has been closed
+2026-11-12 14:27:41,505 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 14:27:42,875 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 14:27:55,616 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:27:56,872 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 14:28:07,360 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 14:28:07,542 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_sort_dropdown.png
+2026-11-12 14:28:07,542 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:28:10,734 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 14:28:12,091 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 14:28:26,644 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 14:28:26,749 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_policy_target_audience.png
+2026-11-12 14:28:26,750 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:30:30,033 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 14:30:46,510 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_heading_visible.png
+2026-11-12 14:30:46,514 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:30:57,850 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 14:30:58,719 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_create_new_procedure.png
+2026-11-12 14:30:58,720 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:31:08,915 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 14:31:09,030 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_view_procedure_details_and_close.png
+2026-11-12 14:31:09,031 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:31:19,119 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 14:31:19,226 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_procedure_target_audience.png
+2026-11-12 14:31:19,227 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:31:32,070 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 14:31:35,708 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_restore_procedure_for_all_employees.png
+2026-11-12 14:31:35,709 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:31:46,192 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 14:31:47,859 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_search_procedure_and_clear.png
+2026-11-12 14:31:47,859 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:31:50,973 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 14:32:29,132 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 14:32:29,219 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestFieldExecutiveEmployeePolicies__test_assigned_policy_and_procedures_are_available.png
+2026-11-12 14:32:29,220 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:42:45,208 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 14:42:46,551 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 14:43:12,467 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:43:12,664 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_create_new_policy.png
+2026-11-12 14:43:12,664 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:43:14,720 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 14:43:25,237 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 14:43:25,388 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_sort_dropdown.png
+2026-11-12 14:43:25,388 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:43:33,522 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 14:43:35,349 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 14:43:42,791 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 14:43:44,578 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 14:43:49,418 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 14:43:50,243 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 14:43:53,503 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 14:43:56,910 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 14:43:58,493 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 14:44:00,892 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 14:44:36,954 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 14:44:37,077 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestFieldExecutiveEmployeePolicies__test_assigned_policy_and_procedures_are_available.png
+2026-11-12 14:44:37,077 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:47:50,421 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:47:50,640 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_create_new_policy.png
+2026-11-12 14:47:50,642 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:50:15,998 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:50:41,414 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 14:50:43,115 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 14:50:55,857 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:50:57,061 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 14:50:57,613 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_table_columns_visible
+2026-11-12 14:50:57,801 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_table_columns_visible.png
+2026-11-12 14:50:57,802 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:51:03,239 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 14:51:04,625 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 14:51:19,258 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 14:51:19,356 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_policy_target_audience.png
+2026-11-12 14:51:19,356 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:53:20,123 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 14:53:20,243 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_heading_visible.png
+2026-11-12 14:53:20,243 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:53:30,313 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 14:53:30,439 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_create_new_procedure.png
+2026-11-12 14:53:30,439 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:53:40,496 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 14:53:40,594 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_view_procedure_details_and_close.png
+2026-11-12 14:53:40,595 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:53:50,637 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 14:53:50,748 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_procedure_target_audience.png
+2026-11-12 14:53:50,748 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:53:54,816 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 14:53:56,051 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 14:53:58,534 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 14:54:23,497 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 14:56:19,120 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:56:33,149 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 14:56:54,954 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 14:56:56,408 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 14:57:09,745 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 14:57:10,996 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 14:57:11,511 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_table_columns_visible
+2026-11-12 14:57:18,790 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 14:57:20,174 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 14:57:37,069 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 14:57:38,064 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 14:57:57,100 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 14:57:57,290 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_create_new_procedure.png
+2026-11-12 14:57:57,291 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:58:07,340 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 14:58:07,480 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_view_procedure_details_and_close.png
+2026-11-12 14:58:07,482 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:58:17,527 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 14:58:17,680 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_procedure_target_audience.png
+2026-11-12 14:58:17,681 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:58:18,096 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 14:58:18,248 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_restore_procedure_for_all_employees.png
+2026-11-12 14:58:18,248 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:58:28,700 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 14:58:28,807 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_search_procedure_and_clear.png
+2026-11-12 14:58:28,807 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 14:58:29,038 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 14:58:29,129 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-12 14:58:29,130 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:00:29,721 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:00:29,901 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestFieldExecutiveEmployeePolicies__test_assigned_policy_and_procedures_are_available.png
+2026-11-12 15:00:29,901 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:01:46,784 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:01:54,377 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:01:55,197 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:01:58,943 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:02:02,432 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:02:04,894 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:04:23,419 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:04:25,131 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:04:38,387 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:04:39,622 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:04:40,123 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:04:45,486 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:04:46,872 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:05:01,223 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:05:02,153 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:05:07,159 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:05:07,985 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:05:11,197 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:05:14,702 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:05:15,793 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:05:17,937 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:05:38,825 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:08:39,391 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:08:40,745 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:08:53,600 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:08:54,826 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:08:55,293 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:09:00,279 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:09:01,599 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:09:16,241 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:09:17,197 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:09:21,878 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:09:22,706 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:09:26,426 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:09:29,857 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:09:31,446 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:09:33,822 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:09:54,244 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:12:27,024 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:12:28,535 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:12:42,392 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:12:43,635 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:12:54,155 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:12:54,375 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_sort_dropdown.png
+2026-11-12 15:13:05,533 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:13:05,764 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_version_history_pdf.png
+2026-11-12 15:13:12,463 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:13:12,574 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_view_policy_details_and_close.png
+2026-11-12 15:13:20,898 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:13:21,969 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:13:41,111 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:13:41,273 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_create_new_procedure.png
+2026-11-12 15:13:51,341 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:13:51,610 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_view_procedure_details_and_close.png
+2026-11-12 15:14:01,675 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:14:01,834 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_procedure_target_audience.png
+2026-11-12 15:14:02,170 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:14:02,326 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_restore_procedure_for_all_employees.png
+2026-11-12 15:14:12,824 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:14:12,945 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_search_procedure_and_clear.png
+2026-11-12 15:14:13,201 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:14:13,412 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-12 15:16:14,300 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:16:14,507 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestFieldExecutiveEmployeePolicies__test_assigned_policy_and_procedures_are_available.png
+2026-11-12 15:18:49,762 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:18:51,340 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:19:03,819 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:19:05,048 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:19:05,533 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:19:05,699 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_policy_sort_dropdown.png
+2026-11-12 15:19:05,701 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:19:13,387 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:19:14,750 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:19:28,834 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:19:29,714 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:19:33,967 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:19:34,819 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:19:38,057 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:19:41,528 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:19:43,126 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:19:45,369 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:20:01,745 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:20:32,577 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:20:34,446 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:20:49,829 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:20:51,104 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:20:51,634 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:20:57,353 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:20:58,703 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:21:15,551 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:21:16,517 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:21:21,542 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:21:22,384 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:21:25,640 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:21:29,164 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:21:30,783 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:21:33,802 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:21:51,668 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:30:21,967 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:30:23,386 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:30:35,803 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:30:37,269 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:30:37,780 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:30:42,939 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:30:44,274 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:30:58,322 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:30:59,274 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:31:04,048 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:31:04,861 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:31:16,511 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:31:16,804 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_edit_procedure_target_audience.png
+2026-11-12 15:31:16,805 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:31:26,877 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:31:26,985 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_restore_procedure_for_all_employees.png
+2026-11-12 15:31:26,986 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:31:37,431 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:31:37,512 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_search_procedure_and_clear.png
+2026-11-12 15:31:37,513 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:31:47,649 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:31:47,805 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestHRPoliciesProcedures__test_procedures_next_previous_pagination.png
+2026-11-12 15:31:47,806 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:33:48,595 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:33:48,759 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestFieldExecutiveEmployeePolicies__test_assigned_policy_and_procedures_are_available.png
+2026-11-12 15:33:48,759 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 15:36:11,535 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:36:12,895 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:36:25,599 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:36:26,843 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:36:27,368 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:36:34,420 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:36:35,752 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:36:49,961 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:36:50,864 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:36:55,693 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:36:56,516 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:37:00,056 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:37:03,588 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:37:05,186 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:37:07,674 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:37:26,188 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:38:37,020 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:38:38,850 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:38:51,503 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:38:52,740 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:38:53,299 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:38:59,429 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:39:00,760 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:39:15,063 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:39:16,067 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:39:20,824 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:39:21,647 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:39:25,195 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:39:28,662 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:39:30,239 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:39:32,267 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:39:53,446 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:58:31,904 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 15:58:33,274 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 15:58:48,191 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 15:58:49,413 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 15:58:49,933 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 15:58:55,444 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 15:58:56,797 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 15:59:10,946 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 15:59:11,868 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 15:59:18,033 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 15:59:18,854 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 15:59:22,439 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 15:59:26,028 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 15:59:27,609 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 15:59:29,677 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 15:59:58,846 | ERROR | Pytest | FAILED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 15:59:59,030 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_policiesandprocedures_py__TestFieldExecutiveEmployeePolicies__test_assigned_policy_and_procedures_are_available.png
+2026-11-12 15:59:59,031 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 16:00:31,014 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 16:00:32,389 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 16:00:45,951 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 16:00:47,230 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 16:00:47,751 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 16:00:52,872 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 16:00:54,239 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 16:01:08,863 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 16:01:09,791 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 16:01:14,440 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 16:01:15,282 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 16:01:18,755 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 16:01:22,139 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 16:01:23,729 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 16:01:25,850 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 16:01:44,651 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 16:03:36,815 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 16:03:38,661 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 16:03:51,950 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 16:03:53,701 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 16:03:54,278 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 16:03:59,632 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 16:04:01,025 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 16:04:16,405 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 16:04:17,339 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 16:04:22,131 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 16:04:23,005 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 16:04:26,636 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 16:04:30,087 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 16:04:32,512 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 16:04:34,857 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 16:05:01,686 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 16:14:47,543 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 16:14:48,900 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 16:15:01,042 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 16:15:02,280 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 16:15:02,812 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 16:15:11,762 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 16:15:14,291 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 16:15:29,083 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 16:15:30,004 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 16:15:34,495 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 16:15:35,323 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 16:15:38,846 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 16:15:42,391 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 16:15:44,013 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 16:15:46,185 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 16:16:13,091 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 16:16:29,535 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_delete_created_policy_and_procedure
+2026-11-12 16:24:11,711 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_login[admin]
+2026-11-12 16:29:05,466 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 16:29:07,263 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 16:29:23,170 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 16:29:24,655 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 16:29:25,316 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 16:29:31,287 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 16:29:32,861 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 16:29:49,926 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 16:29:51,019 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 16:29:55,971 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 16:29:56,900 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 16:30:01,177 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 16:30:04,844 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 16:30:06,517 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 16:30:09,148 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 16:30:35,705 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 16:30:57,369 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_delete_created_policy_and_procedure
+2026-11-12 16:36:44,362 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 16:36:45,887 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 16:37:00,270 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 16:37:01,621 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 16:37:02,219 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 16:37:10,632 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 16:37:12,107 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 16:37:27,918 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 16:37:29,102 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 16:37:34,836 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 16:37:35,733 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 16:37:39,528 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 16:37:43,378 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 16:37:45,068 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 16:37:48,023 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 16:38:16,147 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 16:38:33,398 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_delete_created_policy_and_procedure
+2026-11-12 17:22:43,310 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-12 17:22:44,991 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-12 17:22:59,546 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-12 17:23:00,899 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-12 17:23:01,510 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-12 17:23:08,740 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-12 17:23:10,221 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-12 17:23:24,966 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-12 17:23:26,051 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-12 17:23:31,079 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-12 17:23:31,979 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-12 17:23:35,775 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-12 17:23:39,531 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-12 17:23:41,164 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-12 17:23:43,644 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-12 17:24:14,537 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-12 17:24:40,442 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_delete_created_policy_and_procedure
+2026-11-12 18:34:31,388 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_my_attendance
+2026-11-12 18:34:46,512 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_check_in
+2026-11-12 18:34:46,604 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_meets_and_visits_page
+2026-11-12 18:34:51,134 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_partner_search
+2026-11-12 18:35:24,905 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_begin_visit_or_meeting_for_random_partner
+2026-11-12 18:35:25,101 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_begin_visit_or_meeting_for_random_partner.png
+2026-11-12 18:45:11,248 | INFO | Pytest | PASSED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_my_attendance
+2026-11-12 18:45:33,017 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_check_in
+2026-11-12 18:45:33,149 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_check_in.png
+2026-11-12 18:45:33,150 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 18:45:48,230 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_open_meets_and_visits_page
+2026-11-12 18:45:48,392 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_open_meets_and_visits_page.png
+2026-11-12 18:45:48,393 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 18:46:03,468 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_partner_search
+2026-11-12 18:46:03,567 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_partner_search.png
+2026-11-12 18:46:03,568 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 18:46:18,684 | ERROR | Pytest | FAILED | tests/test_meetvisits.py::TestMeetsAndVisits::test_begin_visit_or_meeting_for_random_partner
+2026-11-12 18:46:18,814 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_meetvisits_py__TestMeetsAndVisits__test_begin_visit_or_meeting_for_random_partner.png
+2026-11-12 18:46:18,814 | ERROR | Pytest | Could not capture screenshot | 'charmap' codec can't encode character '\u274c' in position 2: character maps to <undefined>
+2026-11-12 19:02:56,022 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_route_navigation
+2026-11-12 19:02:56,831 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_route_monthly_filter
+2026-11-12 19:02:58,214 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_create_route_opens_successfully
+2026-11-12 19:02:59,085 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_select_two_nearby_partners
+2026-11-12 19:02:59,588 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_confirm_two_selected_partners
+2026-11-12 19:03:06,785 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_save_urgent_route
+2026-11-12 19:03:08,545 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_edit_saved_urgent_route
+2026-11-12 19:03:13,774 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_update_route_name_to_urgent_visit
+2026-11-12 19:03:15,033 | INFO | Pytest | PASSED | tests/test_route.py::TestRoute::test_delete_urgent_visit_route
+2026-11-12 19:03:52,468 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_login[admin]
+2026-11-12 19:03:55,943 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_password
+2026-11-12 19:03:58,453 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_employee_id
+2026-11-12 19:04:00,930 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_company_id
+2026-11-12 19:04:03,119 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_credentials
+2026-11-12 19:04:05,291 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_password
+2026-11-12 19:04:07,576 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_employee_id
+2026-11-12 19:04:09,878 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_company_id
+2026-11-12 19:04:12,981 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_credentials
+2026-11-12 19:22:35,244 | INFO | Pytest | PASSED | tests/test_leavemanagement.py::TestLeaveManagement::test_leave_management_navigation
+2026-11-12 19:22:35,729 | INFO | Pytest | PASSED | tests/test_leavemanagement.py::TestLeaveManagement::test_leave_types_navigation
+2026-11-12 19:22:43,155 | ERROR | Pytest | FAILED | tests/test_leavemanagement.py::TestLeaveManagement::test_create_leave_type
+2026-11-12 19:22:43,393 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_leavemanagement_py__TestLeaveManagement__test_create_leave_type.png
+2026-11-12 19:22:49,349 | ERROR | Pytest | FAILED | tests/test_leavemanagement.py::TestLeaveManagement::test_edit_leave_type_disable_same_day
+2026-11-12 19:22:49,447 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_leavemanagement_py__TestLeaveManagement__test_edit_leave_type_disable_same_day.png
+2026-11-12 19:22:50,733 | INFO | Pytest | PASSED | tests/test_leavemanagement.py::TestLeaveManagement::test_edit_leave_type_and_cancel
+2026-11-12 19:22:55,853 | ERROR | Pytest | FAILED | tests/test_leavemanagement.py::TestLeaveManagement::test_verify_created_leave_type_without_refresh
+2026-11-12 19:22:56,074 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_leavemanagement_py__TestLeaveManagement__test_verify_created_leave_type_without_refresh.png
+2026-11-12 19:22:57,965 | INFO | Pytest | PASSED | tests/test_leavemanagement.py::TestLeaveManagement::test_leave_policies_add_entitlement_popup
+2026-11-12 19:23:05,058 | ERROR | Pytest | FAILED | tests/test_leavemanagement.py::TestLeaveManagement::test_create_leave_policy_entitlement
+2026-11-12 19:23:05,226 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_leavemanagement_py__TestLeaveManagement__test_create_leave_policy_entitlement.png
+2026-11-12 19:23:10,309 | ERROR | Pytest | FAILED | tests/test_leavemanagement.py::TestLeaveManagement::test_leave_policy_year_filter_updates_entitlements
+2026-11-12 19:23:10,506 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_leavemanagement_py__TestLeaveManagement__test_leave_policy_year_filter_updates_entitlements.png
+2026-11-12 19:23:15,654 | ERROR | Pytest | FAILED | tests/test_leavemanagement.py::TestLeaveManagement::test_add_entitlement_cancel
+2026-11-12 19:23:15,843 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_leavemanagement_py__TestLeaveManagement__test_add_entitlement_cancel.png
+2026-11-12 19:27:17,614 | ERROR | Pytest | FAILED | tests/test_leavemanagement.py::TestFieldExecutiveMyLeaves::test_login_as_field_executive_and_open_my_leaves
+2026-11-12 19:27:18,059 | ERROR | Pytest | Screenshot saved | C:\Users\91770\PycharmProjects\pythonproject1\reports\screenshots\failed\tests_test_leavemanagement_py__TestFieldExecutiveMyLeaves__test_login_as_field_executive_and_open_my_leaves.png
+2026-11-13 16:32:18,084 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_login[admin]
+2026-11-13 16:32:23,238 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_password
+2026-11-13 16:32:26,420 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_employee_id
+2026-11-13 16:32:29,464 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_company_id
+2026-11-13 16:32:32,083 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_credentials
+2026-11-13 16:32:34,652 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_password
+2026-11-13 16:32:37,569 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_employee_id
+2026-11-13 16:32:40,089 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_empty_company_id
+2026-11-13 16:32:42,922 | INFO | Pytest | PASSED | tests/test_login.py::TestLogin::test_invalid_credentials
+2026-11-13 17:10:50,882 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_hr_policies_heading_visible
+2026-11-13 17:10:52,568 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_add_new_policy_button_working
+2026-11-13 17:11:11,375 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_policy
+2026-11-13 17:11:12,902 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_important_policy
+2026-11-13 17:11:13,651 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_sort_dropdown
+2026-11-13 17:11:19,978 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_policy_version_history_pdf
+2026-11-13 17:11:21,533 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_policy_details_and_close
+2026-11-13 17:11:36,578 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_policy_target_audience
+2026-11-13 17:11:37,601 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_heading_visible
+2026-11-13 17:11:42,897 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_create_new_procedure
+2026-11-13 17:11:43,770 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_view_procedure_details_and_close
+2026-11-13 17:11:47,491 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_edit_procedure_target_audience
+2026-11-13 17:11:51,212 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_restore_procedure_for_all_employees
+2026-11-13 17:11:52,383 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_search_procedure_and_clear
+2026-11-13 17:11:54,940 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_procedures_next_previous_pagination
+2026-11-13 17:12:22,399 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestFieldExecutiveEmployeePolicies::test_assigned_policy_and_procedures_are_available
+2026-11-13 17:12:42,167 | INFO | Pytest | PASSED | tests/test_policiesandprocedures.py::TestHRPoliciesProcedures::test_delete_created_policy_and_procedure
